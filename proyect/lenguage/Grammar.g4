@@ -1,4 +1,4 @@
-grammar Grammar 
+grammar Grammar; 
 
 program:(statement NEWLINE)* EOF;
 
@@ -33,4 +33,3 @@ ID:[a-zA-Z][a-zA-Z_0-9]*;
 NEWLINE:[\r\n];
 WS:[\t]->skip;
 SEMI:';';
-
